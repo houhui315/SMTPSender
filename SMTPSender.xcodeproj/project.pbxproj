@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9720CAF91CC881F70022D278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CAF81CC881F70022D278 /* main.m */; };
+		9720CAFC1CC881F70022D278 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CAFB1CC881F70022D278 /* AppDelegate.m */; };
+		9720CAFF1CC881F70022D278 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CAFE1CC881F70022D278 /* ViewController.m */; };
+		9720CB021CC881F70022D278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9720CB001CC881F70022D278 /* Main.storyboard */; };
+		9720CB041CC881F70022D278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9720CB031CC881F70022D278 /* Assets.xcassets */; };
+		9720CB071CC881F70022D278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9720CB051CC881F70022D278 /* LaunchScreen.storyboard */; };
+		9720CB1B1CC882300022D278 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CB101CC882300022D278 /* Base64Transcoder.m */; };
+		9720CB1C1CC882300022D278 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CB121CC882300022D278 /* HSK_CFUtilities.m */; };
+		9720CB1D1CC882300022D278 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CB141CC882300022D278 /* NSData+Base64Additions.m */; };
+		9720CB1E1CC882300022D278 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CB161CC882300022D278 /* NSStream+SKPSMTPExtensions.m */; };
+		9720CB1F1CC882300022D278 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CB181CC882300022D278 /* SKPSMTPMessage.m */; };
+		9720CB221CC8824B0022D278 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9720CB211CC8824B0022D278 /* CFNetwork.framework */; };
+		9720CB261CC8C2200022D278 /* 工资表2016. 3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9720CB251CC8C2200022D278 /* 工资表2016. 3.csv */; };
+		9720CB291CC8C3CB0022D278 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720CB281CC8C3CB0022D278 /* SettingViewController.m */; };
+		9720CB2B1CC8EF940022D278 /* mail.html in Resources */ = {isa = PBXBuildFile; fileRef = 9720CB2A1CC8EF940022D278 /* mail.html */; };
+		974A200E1CC9F29F005BC9D9 /* fileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 974A200B1CC9F29F005BC9D9 /* fileModel.m */; };
+		974A200F1CC9F29F005BC9D9 /* fileModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 974A200D1CC9F29F005BC9D9 /* fileModelTool.m */; };
+		974A20151CC9FC29005BC9D9 /* FileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 974A20141CC9FC29005BC9D9 /* FileCell.m */; };
+		974A20181CC9FDA4005BC9D9 /* SendEmailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 974A20171CC9FDA4005BC9D9 /* SendEmailTableViewController.m */; };
+		974A201B1CCA056A005BC9D9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 974A201A1CCA056A005BC9D9 /* WebViewController.m */; };
+		9756B2E71CEB125D0007EE45 /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756B2E61CEB125D0007EE45 /* MessageModel.m */; };
+		9756B2EA1CEB17A00007EE45 /* MessageSendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9756B2E91CEB17A00007EE45 /* MessageSendCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9720CAF41CC881F70022D278 /* SMTPSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMTPSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9720CAF81CC881F70022D278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9720CAFA1CC881F70022D278 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9720CAFB1CC881F70022D278 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9720CAFD1CC881F70022D278 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9720CAFE1CC881F70022D278 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9720CB011CC881F70022D278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9720CB031CC881F70022D278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9720CB061CC881F70022D278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9720CB081CC881F70022D278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9720CB0F1CC882300022D278 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		9720CB101CC882300022D278 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		9720CB111CC882300022D278 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		9720CB121CC882300022D278 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		9720CB131CC882300022D278 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		9720CB141CC882300022D278 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		9720CB151CC882300022D278 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		9720CB161CC882300022D278 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		9720CB171CC882300022D278 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		9720CB181CC882300022D278 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		9720CB211CC8824B0022D278 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9720CB251CC8C2200022D278 /* 工资表2016. 3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "工资表2016. 3.csv"; sourceTree = "<group>"; };
+		9720CB271CC8C3CB0022D278 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		9720CB281CC8C3CB0022D278 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		9720CB2A1CC8EF940022D278 /* mail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mail.html; sourceTree = "<group>"; };
+		974A200A1CC9F29F005BC9D9 /* fileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileModel.h; sourceTree = "<group>"; };
+		974A200B1CC9F29F005BC9D9 /* fileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileModel.m; sourceTree = "<group>"; };
+		974A200C1CC9F29F005BC9D9 /* fileModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileModelTool.h; sourceTree = "<group>"; };
+		974A200D1CC9F29F005BC9D9 /* fileModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileModelTool.m; sourceTree = "<group>"; };
+		974A20101CC9F8F0005BC9D9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		974A20131CC9FC29005BC9D9 /* FileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCell.h; sourceTree = "<group>"; };
+		974A20141CC9FC29005BC9D9 /* FileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCell.m; sourceTree = "<group>"; };
+		974A20161CC9FDA4005BC9D9 /* SendEmailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendEmailTableViewController.h; sourceTree = "<group>"; };
+		974A20171CC9FDA4005BC9D9 /* SendEmailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendEmailTableViewController.m; sourceTree = "<group>"; };
+		974A20191CCA056A005BC9D9 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		974A201A1CCA056A005BC9D9 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9756B2E51CEB125D0007EE45 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		9756B2E61CEB125D0007EE45 /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		9756B2E81CEB17A00007EE45 /* MessageSendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSendCell.h; sourceTree = "<group>"; };
+		9756B2E91CEB17A00007EE45 /* MessageSendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSendCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9720CAF11CC881F70022D278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9720CB221CC8824B0022D278 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9720CAEB1CC881F70022D278 = {
+			isa = PBXGroup;
+			children = (
+				9720CB211CC8824B0022D278 /* CFNetwork.framework */,
+				9720CAF61CC881F70022D278 /* SMTPSender */,
+				9720CAF51CC881F70022D278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9720CAF51CC881F70022D278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9720CAF41CC881F70022D278 /* SMTPSender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9720CAF61CC881F70022D278 /* SMTPSender */ = {
+			isa = PBXGroup;
+			children = (
+				974A20111CC9FC0B005BC9D9 /* Class */,
+				974A20121CC9FC0B005BC9D9 /* View */,
+				974A20061CC9F221005BC9D9 /* Tools */,
+				9720CB0E1CC882300022D278 /* SMTPLibrary */,
+				9720CAFA1CC881F70022D278 /* AppDelegate.h */,
+				9720CAFB1CC881F70022D278 /* AppDelegate.m */,
+				9720CAFD1CC881F70022D278 /* ViewController.h */,
+				9720CAFE1CC881F70022D278 /* ViewController.m */,
+				9720CB271CC8C3CB0022D278 /* SettingViewController.h */,
+				9720CB281CC8C3CB0022D278 /* SettingViewController.m */,
+				9720CB001CC881F70022D278 /* Main.storyboard */,
+				9720CB031CC881F70022D278 /* Assets.xcassets */,
+				9720CB051CC881F70022D278 /* LaunchScreen.storyboard */,
+				9720CB081CC881F70022D278 /* Info.plist */,
+				9720CAF71CC881F70022D278 /* Supporting Files */,
+			);
+			path = SMTPSender;
+			sourceTree = "<group>";
+		};
+		9720CAF71CC881F70022D278 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9720CB2A1CC8EF940022D278 /* mail.html */,
+				9720CB251CC8C2200022D278 /* 工资表2016. 3.csv */,
+				9720CAF81CC881F70022D278 /* main.m */,
+				974A20101CC9F8F0005BC9D9 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9720CB0E1CC882300022D278 /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				9720CB0F1CC882300022D278 /* Base64Transcoder.h */,
+				9720CB101CC882300022D278 /* Base64Transcoder.m */,
+				9720CB111CC882300022D278 /* HSK_CFUtilities.h */,
+				9720CB121CC882300022D278 /* HSK_CFUtilities.m */,
+				9720CB131CC882300022D278 /* NSData+Base64Additions.h */,
+				9720CB141CC882300022D278 /* NSData+Base64Additions.m */,
+				9720CB151CC882300022D278 /* NSStream+SKPSMTPExtensions.h */,
+				9720CB161CC882300022D278 /* NSStream+SKPSMTPExtensions.m */,
+				9720CB171CC882300022D278 /* SKPSMTPMessage.h */,
+				9720CB181CC882300022D278 /* SKPSMTPMessage.m */,
+			);
+			path = SMTPLibrary;
+			sourceTree = "<group>";
+		};
+		974A20061CC9F221005BC9D9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				974A200A1CC9F29F005BC9D9 /* fileModel.h */,
+				974A200B1CC9F29F005BC9D9 /* fileModel.m */,
+				974A200C1CC9F29F005BC9D9 /* fileModelTool.h */,
+				974A200D1CC9F29F005BC9D9 /* fileModelTool.m */,
+				9756B2E51CEB125D0007EE45 /* MessageModel.h */,
+				9756B2E61CEB125D0007EE45 /* MessageModel.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		974A20111CC9FC0B005BC9D9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				974A20161CC9FDA4005BC9D9 /* SendEmailTableViewController.h */,
+				974A20171CC9FDA4005BC9D9 /* SendEmailTableViewController.m */,
+				974A20191CCA056A005BC9D9 /* WebViewController.h */,
+				974A201A1CCA056A005BC9D9 /* WebViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		974A20121CC9FC0B005BC9D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				974A20131CC9FC29005BC9D9 /* FileCell.h */,
+				974A20141CC9FC29005BC9D9 /* FileCell.m */,
+				9756B2E81CEB17A00007EE45 /* MessageSendCell.h */,
+				9756B2E91CEB17A00007EE45 /* MessageSendCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9720CAF31CC881F70022D278 /* SMTPSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9720CB0B1CC881F70022D278 /* Build configuration list for PBXNativeTarget "SMTPSender" */;
+			buildPhases = (
+				9720CAF01CC881F70022D278 /* Sources */,
+				9720CAF11CC881F70022D278 /* Frameworks */,
+				9720CAF21CC881F70022D278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMTPSender;
+			productName = SMTPSender;
+			productReference = 9720CAF41CC881F70022D278 /* SMTPSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9720CAEC1CC881F70022D278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhixueyun;
+				TargetAttributes = {
+					9720CAF31CC881F70022D278 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9720CAEF1CC881F70022D278 /* Build configuration list for PBXProject "SMTPSender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9720CAEB1CC881F70022D278;
+			productRefGroup = 9720CAF51CC881F70022D278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9720CAF31CC881F70022D278 /* SMTPSender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9720CAF21CC881F70022D278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9720CB261CC8C2200022D278 /* 工资表2016. 3.csv in Resources */,
+				9720CB071CC881F70022D278 /* LaunchScreen.storyboard in Resources */,
+				9720CB2B1CC8EF940022D278 /* mail.html in Resources */,
+				9720CB041CC881F70022D278 /* Assets.xcassets in Resources */,
+				9720CB021CC881F70022D278 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9720CAF01CC881F70022D278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9720CB1C1CC882300022D278 /* HSK_CFUtilities.m in Sources */,
+				974A201B1CCA056A005BC9D9 /* WebViewController.m in Sources */,
+				9756B2E71CEB125D0007EE45 /* MessageModel.m in Sources */,
+				974A200F1CC9F29F005BC9D9 /* fileModelTool.m in Sources */,
+				9720CB1E1CC882300022D278 /* NSStream+SKPSMTPExtensions.m in Sources */,
+				9720CB1F1CC882300022D278 /* SKPSMTPMessage.m in Sources */,
+				9720CAFF1CC881F70022D278 /* ViewController.m in Sources */,
+				974A20181CC9FDA4005BC9D9 /* SendEmailTableViewController.m in Sources */,
+				9720CAFC1CC881F70022D278 /* AppDelegate.m in Sources */,
+				974A200E1CC9F29F005BC9D9 /* fileModel.m in Sources */,
+				9720CB291CC8C3CB0022D278 /* SettingViewController.m in Sources */,
+				9756B2EA1CEB17A00007EE45 /* MessageSendCell.m in Sources */,
+				9720CB1D1CC882300022D278 /* NSData+Base64Additions.m in Sources */,
+				974A20151CC9FC29005BC9D9 /* FileCell.m in Sources */,
+				9720CAF91CC881F70022D278 /* main.m in Sources */,
+				9720CB1B1CC882300022D278 /* Base64Transcoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9720CB001CC881F70022D278 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9720CB011CC881F70022D278 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9720CB051CC881F70022D278 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9720CB061CC881F70022D278 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9720CB091CC881F70022D278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9720CB0A1CC881F70022D278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9720CB0C1CC881F70022D278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = SMTPSender/PrefixHeader.pch;
+				INFOPLIST_FILE = SMTPSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.SMTPSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d52e6baa-c0c3-4f91-9199-b1b78b010160";
+			};
+			name = Debug;
+		};
+		9720CB0D1CC881F70022D278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = SMTPSender/PrefixHeader.pch;
+				INFOPLIST_FILE = SMTPSender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netschina.SMTPSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d52e6baa-c0c3-4f91-9199-b1b78b010160";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9720CAEF1CC881F70022D278 /* Build configuration list for PBXProject "SMTPSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9720CB091CC881F70022D278 /* Debug */,
+				9720CB0A1CC881F70022D278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9720CB0B1CC881F70022D278 /* Build configuration list for PBXNativeTarget "SMTPSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9720CB0C1CC881F70022D278 /* Debug */,
+				9720CB0D1CC881F70022D278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9720CAEC1CC881F70022D278 /* Project object */;
+}
